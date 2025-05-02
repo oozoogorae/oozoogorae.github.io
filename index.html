@@ -56,6 +56,7 @@
     .store-links {
       display: flex;
       justify-content: center;
+      align-items: center;
       gap: 1.5rem;
       margin-top: 1.5rem;
     }
@@ -70,13 +71,14 @@
       transform: scale(1.05);
     }
     
-    .store-button img {
+    .store-button img,
+    .store-button svg {
       width: 100%;
       height: auto;
     }
     
-    @media (max-width: 768px) {
-      .store-links {
+    @media (max-width: 576px) {
+	  .store-links {
         flex-direction: column;
         align-items: center;
         gap: 1rem;
