@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OOZOOGORAE</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: #f5f5f7;
+      color: #333;
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+    
+    .logo-container {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+    
+    .logo {
+      max-width: 300px;
+      height: auto;
+    }
+    
+    .game-section {
+      margin-bottom: 6rem;
+      text-align: center;
+    }
+    
+    .game-image {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+    
+    .game-image:hover {
+      transform: translateY(-5px);
+    }
+    
+    .store-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    
+    .store-button {
+      display: inline-block;
+      width: 180px;
+      transition: transform 0.3s ease;
+    }
+    
+    .store-button:hover {
+      transform: scale(1.05);
+    }
+    
+    .store-button img {
+      width: 100%;
+      height: auto;
+    }
+    
+    @media (max-width: 768px) {
+      .store-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+      
+      .store-button {
+        width: 160px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Company Logo -->
+    <div class="logo-container">
+      <img src="images/oozoogorae.png" alt="우주고래 게임즈 로고" class="logo">
+    </div>
+    
+    <!-- 스위트 마이 홈 -->
+    <div class="game-section">
+      <img src="images/sweetmyhome.png" alt="Sweet My Home" class="game-image">
+      <div class="store-links">
+        <a href="https://play.google.com/store/apps/details?id=com.OOZOOGORAE.SweetMyHome" class="store-button">
+          <img src="images/google-play-badge.svg" alt="Google Play 다운로드">
+        </a>
+        <a href="https://apps.apple.com/app/id6744249472" class="store-button">
+          <img src="images/app-store-badge.svg" alt="App Store 다운로드">
+        </a>
+      </div>
+    </div>
+    
+    <!-- 캐릭터 라이프 -->
+    <div class="game-section">
+      <img src="images/characterlife.png" alt="Character Life" class="game-image">
+      <div class="store-links">
+        <a href="https://play.google.com/store/apps/details?id=com.OOZOOGORAE.CharacterLife" class="store-button">
+          <img src="images/google-play-badge.svg" alt="Google Play 다운로드">
+        </a>
+        <a href="https://apps.apple.com/app/id1640846065" class="store-button">
+          <img src="images/app-store-badge.svg" alt="App Store 다운로드">
+        </a>
+      </div>
+    </div>
+    
+    <!-- 캐릭터 메이커 -->
+    <div class="game-section">
+      <img src="images/charactermaker.png" alt="Character Maker" class="game-image">
+      <div class="store-links">
+        <a href="https://play.google.com/store/apps/details?id=com.OOZOOGORAE.CharacterMaker" class="store-button">
+          <img src="images/google-play-badge.svg" alt="Google Play 다운로드">
+        </a>
+        <a href="https://apps.apple.com/app/id1461482462" class="store-button">
+          <img src="images/app-store-badge.svg" alt="App Store 다운로드">
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
